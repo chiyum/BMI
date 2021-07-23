@@ -91,6 +91,12 @@ body {
   border-radius: 50%;
 }
 
+.head .icon .resultCl:hover {
+  background-color: #f1b418;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
 .head .iconBack {
   position: relative;
 }
@@ -155,6 +161,8 @@ body {
   border: solid 5px #31baf9;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head .icongood {
@@ -191,6 +199,8 @@ body {
   border: solid 5px #86d73f;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head .iconfat {
@@ -227,6 +237,8 @@ body {
   border: solid 5px #ff982d;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head .iconfatter {
@@ -263,6 +275,8 @@ body {
   border: solid 5px #ff6c03;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head .iconfatterr {
@@ -299,6 +313,8 @@ body {
   border: solid 5px #ff6c09;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head .iconfatterrr {
@@ -335,6 +351,8 @@ body {
   border: solid 5px #ff1200;
   border-radius: 50%;
   background-color: #424242;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .head ::-webkit-input-placeholder {

@@ -69,6 +69,10 @@ body{
             background-color: #ffd366;
             border-radius: 50%;
         }
+        .resultCl:hover{
+            background-color: #f1b418;
+            transition: all 0.7s;
+        }
     }
     .iconBack{
         position: relative;
@@ -127,6 +131,7 @@ body{
             border: solid 5px #31baf9;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     .icongood{
@@ -159,6 +164,7 @@ body{
             border: solid 5px #86d73f;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     .iconfat{
@@ -191,6 +197,7 @@ body{
             border: solid 5px #ff982d;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     .iconfatter{
@@ -223,6 +230,7 @@ body{
             border: solid 5px #ff6c03;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     .iconfatterr{
@@ -255,6 +263,7 @@ body{
             border: solid 5px #ff6c09;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     .iconfatterrr{
@@ -287,6 +296,7 @@ body{
             border: solid 5px #ff1200;
             border-radius: 50%;
             background-color: #424242;
+            transition: all 1s;
         }    
     }
     ::placeholder { 

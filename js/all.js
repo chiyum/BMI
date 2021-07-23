@@ -18,6 +18,7 @@ function roundToTwo(num) {
 
 
 function count(e){
+    res()
     let height = parseInt(document.querySelector('.heightCl').value); //身高
     let width = parseInt(document.querySelector('.widthCl').value); //體重
     let total = width/(height*height/10000)//bmi算式
@@ -31,6 +32,7 @@ function count(e){
     localStorage.setItem('BMI',JSON.stringify(data))//轉成字串將陣列輸入至local內
     update(data)//上面在輸入同時，這個data已經將數字導入陣列內，故以此更新ineerHTML
     click(data)
+    console.log(width)
 }
 
 
@@ -145,8 +147,11 @@ function back(e){
 }
 reset.addEventListener('click',back,true)
 
-
-
+function res(e){
+    icon.setAttribute("class","icon")
+    result.value='看結果'
+}
+//resetclick以避免錯誤
 
 
 // function color(items){
