@@ -68,7 +68,7 @@ function update(items){//這裡的items會用data陣列下去跑
             calo ='id="fatterrr"'//重度
             namee='真的不健康'
         }
-        str+='<li '+calo+'><h3>'+namee+'</h3><p><span>BMI</span>'+items[i].content+'</p><p><span>Width</span>'+items[i].widthstr+'</p><p><span>Height</span>'+items[i].heightstr+'</p><div data-ggwp="'+i+'" class="dateCl">╳</div></li>';
+        str+='<li '+calo+'><h3>'+namee+'</h3><p><span>BMI</span>'+items[i].content+'</p><p><span>Width</span>'+items[i].heightstr+'</p><p><span>Height</span>'+items[i].widthstr+'</p><div data-ggwp="'+i+'" class="dateCl">╳</div></li>';
     }
     list.innerHTML= str;
 }
