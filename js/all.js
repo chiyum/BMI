@@ -21,7 +21,7 @@ function count(e){
     res()
     let height = parseInt(document.querySelector('.heightCl').value); //身高
     let width = parseInt(document.querySelector('.widthCl').value); //體重
-    if(width&&height){console.log('hi')}
+    if(isNaN(height)||isNaN(width)){return}
     let total = width/(height*height/10000)//bmi算式
     let listTo =roundToTwo(total)//取小數後兩位
     let into ={
