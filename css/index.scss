@@ -329,6 +329,7 @@ body{
                     position: relative;
                     bottom: 4px;
                     font-size: 14px;
+                    margin: 0px 5px;
                 }
             }
             .dateCl{
@@ -385,5 +386,90 @@ body{
 
 #fatterrr{
     border-left:6px solid #ff1200;
+}
+
+@media(max-width:840px) {
+    .content{
+        h2{
+            color: rebeccapurple;
+        }
+        li{
+            width: 300px;
+        }
+    }
+}
+@media(max-width:720px) {
+
+    .head{
+        .mid{
+            margin: 0px 30px;
+        }
+    }
+
+    .content{
+        ul{
+            li{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media(max-width:519px) {
+
+    .head{
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .mid{
+            margin: 0px 30px;
+            input{
+                width: 120px;
+            }
+        }
+    }
+    .content{
+        ul{
+            li{
+                width: 80%;
+                h3{
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:420px) {
+
+    .head{
+        // img{
+        //     width: 70px;
+        //     height: 70px;
+        // }
+        .mid{
+            top: -20px;
+            margin: 0px 10px;
+            input{
+                width: 100px;
+            }
+        }
+    }
+    .content{
+        ul{
+            li{
+                h3{
+                    font-size: 16px;
+                }
+                p{
+                    font-size: 16px;
+                    span{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
 }
 // #424242黑 #ffd366黃 #86d73f綠 #31baf9藍 #ff982d橘 #ff6c03橘2 #ff6c03橘3 #ff1200紅 #f5f5f5灰白

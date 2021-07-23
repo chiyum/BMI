@@ -402,6 +402,7 @@ body {
   position: relative;
   bottom: 4px;
   font-size: 14px;
+  margin: 0px 5px;
 }
 
 .content ul li .dateCl {
@@ -457,5 +458,61 @@ body {
 
 #fatterrr {
   border-left: 6px solid #ff1200;
+}
+
+@media (max-width: 840px) {
+  .content h2 {
+    color: rebeccapurple;
+  }
+  .content li {
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  .head .mid {
+    margin: 0px 30px;
+  }
+  .content ul li {
+    width: 80%;
+  }
+}
+
+@media (max-width: 519px) {
+  .head img {
+    width: 100px;
+    height: 100px;
+  }
+  .head .mid {
+    margin: 0px 30px;
+  }
+  .head .mid input {
+    width: 120px;
+  }
+  .content ul li {
+    width: 80%;
+  }
+  .content ul li h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .head .mid {
+    top: -20px;
+    margin: 0px 10px;
+  }
+  .head .mid input {
+    width: 100px;
+  }
+  .content ul li h3 {
+    font-size: 16px;
+  }
+  .content ul li p {
+    font-size: 16px;
+  }
+  .content ul li p span {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=index.css.map */

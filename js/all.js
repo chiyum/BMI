@@ -21,6 +21,7 @@ function count(e){
     res()
     let height = parseInt(document.querySelector('.heightCl').value); //身高
     let width = parseInt(document.querySelector('.widthCl').value); //體重
+    if(width&&height){console.log('hi')}
     let total = width/(height*height/10000)//bmi算式
     let listTo =roundToTwo(total)//取小數後兩位
     let into ={
@@ -32,7 +33,6 @@ function count(e){
     localStorage.setItem('BMI',JSON.stringify(data))//轉成字串將陣列輸入至local內
     update(data)//上面在輸入同時，這個data已經將數字導入陣列內，故以此更新ineerHTML
     click(data)
-    console.log(width)
 }
 
 
@@ -129,8 +129,7 @@ function click(ite){
             inputtext.value =ite[i].content
         }else{
             icon.setAttribute("class","icon")
-            inputtext.value ='請輸入數值'
-            console.log('請輸入文字')
+            inputtext.value ='請輸入'
         }
     }
 }
