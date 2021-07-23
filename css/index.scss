@@ -404,6 +404,42 @@ body{
         .mid{
             margin: 0px 30px;
         }
+        .iconNfat{
+            p{
+                left: 33px;
+                bottom: -30px;
+            }
+        }
+        .icongood{
+            p{
+                left: 35px;
+                bottom: -30px;
+            }
+        }
+        .iconfat{
+            p{
+                left: 15px;
+                bottom: -30px;
+            }
+        }
+        .iconfatter{
+            p{
+                left: 15px;
+                bottom: -30px;
+            }
+        }
+        .iconfatterr{
+            p{
+                left: 15px;
+                bottom: -30px;
+            }
+        }
+        .iconfatterrr{
+            p{
+                left: 15px;
+                bottom: -30px;
+            }
+        }
     }
 
     .content{
@@ -415,7 +451,7 @@ body{
     }
 }
 
-@media(max-width:519px) {
+@media(max-width:520px) {
 
     .head{
         img{
@@ -428,6 +464,8 @@ body{
                 width: 120px;
             }
         }
+       
+        
     }
     .content{
         ul{
@@ -455,6 +493,7 @@ body{
                 width: 100px;
             }
         }
+        
     }
     .content{
         ul{

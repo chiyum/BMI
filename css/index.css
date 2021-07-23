@@ -473,12 +473,36 @@ body {
   .head .mid {
     margin: 0px 30px;
   }
+  .head .iconNfat p {
+    left: 33px;
+    bottom: -30px;
+  }
+  .head .icongood p {
+    left: 35px;
+    bottom: -30px;
+  }
+  .head .iconfat p {
+    left: 15px;
+    bottom: -30px;
+  }
+  .head .iconfatter p {
+    left: 15px;
+    bottom: -30px;
+  }
+  .head .iconfatterr p {
+    left: 15px;
+    bottom: -30px;
+  }
+  .head .iconfatterrr p {
+    left: 15px;
+    bottom: -30px;
+  }
   .content ul li {
     width: 80%;
   }
 }
 
-@media (max-width: 519px) {
+@media (max-width: 520px) {
   .head img {
     width: 100px;
     height: 100px;
