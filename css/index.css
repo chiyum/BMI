@@ -461,9 +461,6 @@ body {
 }
 
 @media (max-width: 840px) {
-  .content h2 {
-    color: rebeccapurple;
-  }
   .content li {
     width: 300px;
   }
