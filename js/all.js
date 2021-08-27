@@ -17,10 +17,10 @@ function roundToTwo(num) {
 
 
 function count(e){
-    res()
+    res() //reset按鈕以此重新計算 不加的話樣式會固定在一開始的變化
     let height = parseInt(document.querySelector('.heightCl').value); //身高
     let width = parseInt(document.querySelector('.widthCl').value); //體重
-    if(isNaN(height)||isNaN(width)){
+    if(isNaN(height)||isNaN(width)){ //若無輸入則反饋給使用者
         result.value ='請輸入'    
         return
     }
